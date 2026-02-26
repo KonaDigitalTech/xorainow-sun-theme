@@ -374,3 +374,17 @@ document.addEventListener('visibilitychange', () => {
     // Resume animations when page is visible
   }
 });
+
+
+(function () {
+  var modal = document.getElementById("modal_caller");
+  var openBtn = document.querySelector(".btn_caller");
+  var closeBtn = document.querySelector(".close_call_btn_caller");
+  if (modal && openBtn) {
+    openBtn.addEventListener("click", function () { modal.classList.add("active"); modal.setAttribute("aria-hidden", "false"); });
+    openBtn.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); modal.classList.add("active"); modal.setAttribute("aria-hidden", "false"); } });
+  }
+  if (modal && closeBtn) {
+    closeBtn.addEventListener("click", function () { modal.classList.remove("active"); modal.setAttribute("aria-hidden", "true"); });
+  }
+})();
