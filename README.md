@@ -1,8 +1,8 @@
-# Zakti Futuristic Website
+# Xakti Futuristic Website
 
 ## 🎉 Website Redesign Complete - Phase 1
 
-This repository contains the completely redesigned Zakti Futuristic website based on the comprehensive content blueprint provided. The website has been transformed from a single-page CAIR Drive product site into a full multi-page corporate website showcasing three business pillars: **XF Products**, **AI Services**, and **AI Academy**.
+This repository contains the completely redesigned Xakti Futuristic website based on the comprehensive content blueprint provided. The website has been transformed from a single-page CAIR Drive product site into a full multi-page corporate website showcasing three business pillars: **XF Products**, **AI Services**, and **AI Academy**.
 
 ## ✅ What's Been Completed
 
@@ -10,7 +10,7 @@ This repository contains the completely redesigned Zakti Futuristic website base
 - ✅ **Homepage** (`index.html`) - Complete redesign with:
   - Hero section with animated particle canvas
   - Three pillars showcase (Products, Services, Academy)
-  - Why Zakti differentiation section
+  - Why Xakti differentiation section
   - Product tabs carousel
   - Industry verticals grid
   - Market stats
@@ -294,7 +294,7 @@ Optimizations included:
 
 ## 📄 License
 
-© 2026 Zakti FUTURISTIC PRIVATE LIMITED. All rights reserved.
+© 2026 Xakti FUTURISTIC PRIVATE LIMITED. All rights reserved.
 
 CIN: U62099AS2025PTC027602
 
