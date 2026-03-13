@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0A0A0F" />
+    <meta name="description" content="Contact XaktiNow for AI services, ServiceNow services, training, staffing, and partnerships." />
+    <title>Contact & Demo | XaktiNow</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="/assets/fav.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-elevate="false"></header>
+    <main id="main">
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <h1>Let's talk about what's next.</h1>
+            <p>Whether you need AI strategy, ServiceNow delivery, certified talent, or a strategic partnership, our team responds within 24 hours.</p>
+          </div>
+          <div class="grid two gap-lg">
+            <div class="card reveal">
+              <h3>Tell Us What You Need</h3>
+              <form id="company-contact-form" style="display:flex;flex-direction:column;gap:16px;margin-top:20px;">
+                <input type="text" name="name" placeholder="Name" required style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);" />
+                <input type="text" name="company" placeholder="Company" required style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);" />
+                <input type="email" name="email" placeholder="Email" required style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);" />
+                <input type="tel" name="phone" placeholder="Phone" style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);" />
+                <select name="interest" required style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);">
+                  <option value="">What are you looking for?</option>
+                  <option>AI Services</option>
+                  <option>ServiceNow Services</option>
+                  <option>ServiceNow Training</option>
+                  <option>Staffing</option>
+                  <option>Partnership</option>
+                  <option>Other</option>
+                </select>
+                <textarea name="message" rows="5" placeholder="Briefly describe your goals, current challenges, and timeline..." required style="width:100%;padding:12px;border:1px solid var(--stroke);background:var(--bg-secondary);color:var(--text-primary);border-radius:var(--radius-sm);"></textarea>
+                <button type="submit" class="btn primary">Talk to Us</button>
+              </form>
+            </div>
+            <div class="card reveal">
+              <h3>Office Locations</h3>
+              <p><strong>India (Delivery HQ)</strong><br />Guwahati &amp; Hyderabad, India</p>
+              <p style="margin-top: 16px;"><strong>United States</strong><br />US Office Address</p>
+              <p style="margin-top: 16px;"><strong>Email:</strong> hello@xaktinow.com</p>
+              <p><strong>Website:</strong> xaktinow.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"></footer>
+    <script src="/app.js" defer></script>
+    <script>
+      document.getElementById("company-contact-form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("Thank you. We will get back to you within 24 hours.");
+        this.reset();
+      });
+    </script>
+  </body>
+</html>
